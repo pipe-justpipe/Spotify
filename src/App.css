@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Bold.ttf') format('truetype'),
+       url('./fonts/Helvetica-BoldOblique.ttf') format('truetype'),
+       url('./fonts/helvetica-compressed-5871d14b6903a.otf') format('opentype');
+}
+
+.body {
+  font-family: 'Helvetica';
+}
