@@ -52,6 +52,13 @@
     color: #000000;
 }
 @media (max-width: 864px) {
+    .nav{
+        width: 95%;
+    }
+    .logo{
+        width: 80.48px;
+        height: 24.4px;
+    }
     .nav .links{
         display: none;
     }

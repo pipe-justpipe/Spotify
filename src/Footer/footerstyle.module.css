@@ -1,0 +1,106 @@
+.footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 100px 0;
+}
+.footerTop {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 100px auto;
+  justify-content: space-between;
+}
+.logolist {
+  display: flex;
+  gap: 100px;
+}
+.logo {
+  width: 131.48px;
+  height: 39.4px;
+}
+.all_lists {
+  display: flex;
+  flex-wrap: wrap;
+  width: 585px;
+  justify-content: space-between;
+}
+.headlist {
+  font-size: 11px;
+  line-height: 16.8px;
+  color: #919496;
+}
+.ful {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.about {
+  margin-top: 55px;
+}
+li {
+  list-style-type: none;
+}
+.images {
+  display: flex;
+  width: 192px;
+  justify-content: space-between;
+}
+.socialicon {
+  width: 54px;
+  height: 54px;
+}
+.indiawrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin: 0 auto;
+}
+.india {
+  display: flex;
+  width: 95.3px;
+  justify-content: space-between;
+  font-size: 11px;
+  line-height: 12.65px;
+  margin-bottom: 50px;
+}
+.lowerfooter {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 13.8px;
+  color: #919496;
+}
+.lowerlist {
+  display: flex;
+  width: 419.88px;
+  justify-content: space-around;
+}
+@media (max-width: 972px) {
+  .all_lists {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .logolist {
+    display: flex;
+    flex-direction: column;
+  }
+  .headlist {
+margin-top: 50px;
+  }
+}
+@media (max-width: 484px) {
+  .logolist {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 404px) {
+  .images {
+    margin-top: 50px;
+  }
+}
